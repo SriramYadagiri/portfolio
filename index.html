@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Professional portfolio website" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="logo" href="#top" aria-label="Home">
+        <span class="logo__mark">◆</span>
+        <span class="logo__text">Sriram Yadagiri</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="navMenu" aria-label="Primary">
+        <a href="#about" class="nav__link">About</a>
+        <a href="#skills" class="nav__link">Skills</a>
+        <a href="#projects" class="nav__link">Projects</a>
+        <a href="#contact" class="nav__link">Contact</a>
+        <a class="btn btn--small btn--ghost" href="./assets/resume.pdf" download>Download Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Student • Developer • Builder</p>
+          <h1 class="hero__title">
+            I build clean, reliable software and polished user experiences.
+          </h1>
+          <p class="hero__subtitle">
+            I’m a high-school senior in Houston focused on full-stack development and applied AI. I like projects that combine clean UI, solid engineering, and real-world impact.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn--ghost" href="#contact">Contact</a>
+          </div>
+
+          <div class="hero__meta">
+            <a class="chip" href="https://github.com/SriramYadagiri" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="chip" href="https://www.linkedin.com/in/sriram-yadagiri-b92829272/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="chip" href="mailto:yadagirisriram27@gmail.com">yadagirisriram27@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <div class="profile">
+            <div class="profile__avatar" aria-hidden="true">
+              <span>SY</span>
+            </div>
+            <div>
+              <h2 class="profile__name">Sriram Yadagiri</h2>
+              <p class="profile__role">Aspiring Software Engineer</p>
+            </div>
+          </div>
+
+          <ul class="profile__highlights">
+            <li><span class="dot"></span> Building projects in web + AI</li>
+            <li><span class="dot"></span> Interested in internships + research</li>
+            <li><span class="dot"></span> Based in Houston, TX</li>
+          </ul>
+
+          <div class="profile__actions">
+            <a class="btn btn--small" href="./assets/resume.pdf" download>Download Resume</a>
+            <a class="btn btn--small btn--ghost" href="#contact">Let’s Talk</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head">
+          <h2>About Me</h2>
+          <p class="muted">A quick, confident summary of who you are and what you care about.</p>
+        </div>
+
+        <div class="two-col">
+          <div class="card">
+            <h3>Background</h3>
+            <p>
+              I’m a student developer who likes building end-to-end products—front end, backend, and the parts in between. I care about clean interfaces and reliability: if something feels confusing or brittle, I enjoy iterating until it’s smooth. Outside of coding, I’ve led teams through STEM clubs and service projects, which taught me how to plan, delegate, and execute under real constraints.
+            </p>
+            <p>
+              I won Code2College’s AI Ultra pitch competition for an AI project that detects bias and misinformation and generates neutral rewrites.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>What I’m looking for</h3>
+            <p>
+              Summer internships, research, freelance web work, or collaborations.
+              Mention your interests (AI, full-stack, data, product, etc.).
+            </p>
+            <div class="facts">
+              <div class="fact">
+                <span class="fact__label">Location</span>
+                <span class="fact__value">Houston, TX</span>
+              </div>
+              <div class="fact">
+                <span class="fact__label">Focus</span>
+                <span class="fact__value">Full-Stack + AI</span>
+              </div>
+              <div class="fact">
+                <span class="fact__label">Email</span>
+                <span class="fact__value"><a href="mailto:yadagirisriram27@gmail.com">yadagirisriram27@gmail.com</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section__head">
+          <h2>Skills</h2>
+          <p class="muted">Tools and technologies I use to ship projects.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="card">
+            <h3>Languages</h3>
+            <div class="tag-row">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Python</span>
+              <span class="tag">Java</span>
+              <span class="tag">SQL</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Frameworks</h3>
+            <div class="tag-row">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Flask</span>
+              <span class="tag">Express</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Other</h3>
+            <div class="tag-row">
+              <span class="tag">Git/GitHub</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">UI/UX</span>
+              <span class="tag">Testing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section__head section__head--row">
+          <div>
+            <h2>Projects</h2>
+            <p class="muted">A few things I’ve built. Swap in your real projects + links.</p>
+          </div>
+
+          <div class="project-controls">
+            <input id="projectSearch" class="input" type="search" placeholder="Search projects..." aria-label="Search projects" />
+            <select id="projectFilter" class="input" aria-label="Filter projects">
+              <option value="all">All</option>
+              <option value="web">Web</option>
+              <option value="ai">AI</option>
+              <option value="mobile">Mobile</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid grid--3" id="projectGrid">
+          <!-- Project card template: set data-tags for filtering -->
+          <article class="card project" data-tags="web">
+            <div class="project__top">
+              <h3 class="project__title">NewsSense</h3>
+              <span class="badge">AI</span>
+            </div>
+            <p class="muted">
+              An AI-powered web app that flags bias and potential misinformation in news articles, highlights questionable framing, and generates clearer, more neutral rewrites.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Python</span><span class="tag">Flask</span><span class="tag">GPT 4</span><span class="tag">Agno AI Agents</span>
+            </div>
+            <div class="project__links">
+              <a class="link" href="https://newssense.onrender.com/" target="_blank" rel="noreferrer">Live</a>
+              <a class="link" href="https://github.com/SriramYadagiri/NewsSense" target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </article>
+
+          <article class="card project" data-tags="ai web">
+            <div class="project__top">
+              <h3 class="project__title">SAT Wizard</h3>
+              <span class="badge">Web</span>
+            </div>
+            <p class="muted">
+              A personalized SAT practice platform that adapts question difficulty, tracks progress, and recommends targeted practice based on performance.
+            </p>
+            <div class="tag-row">
+              <span class="tag">ReactJS</span><span class="tag">Node.js</span><span class="tag">Express</span>
+            </div>
+            <div class="project__links">
+              <a class="link" href="https://sat-prep-uaya.onrender.com/" target="_blank" rel="noreferrer">Live</a>
+              <a class="link" href="https://github.com/SriramYadagiri/SAT_StudyHelper" target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </article>
+
+          <article class="card project" data-tags="mobile">
+            <div class="project__top">
+              <h3 class="project__title">Thread Art</h3>
+              <span class="badge">Web</span>
+            </div>
+            <p class="muted">
+              A thread-art generator that converts an image into pin-to-pin string paths and includes a step-through viewer to replay the build process.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Javascript</span><span class="tag">HTML</span><span class="tag">CSS</span>
+            </div>
+            <div class="project__links">
+              <a class="link" href="https://sriramyadagiri.github.io/ThreadArt/" target="_blank" rel="noreferrer">Live</a>
+              <a class="link" href="https://github.com/SriramYadagiri/ThreadArt" target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contact</h2>
+          <p class="muted">Send a message — this uses mailto so it works anywhere (no backend needed).</p>
+        </div>
+
+        <div class="two-col">
+          <div class="card">
+            <h3>Reach out</h3>
+            <p>
+              I’m happy to talk about internships, research, collaborations, or building something useful.
+            </p>
+            <div class="contact-list">
+              <a class="contact-item" href="mailto:yadagirisriram27@gmail.com">yadagirisriram27@gmail.com</a>
+              <a class="contact-item" href="https://www.linkedin.com/in/sriram-yadagiri-b92829272/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="contact-item" href="https://github.com/SriramYadagiri" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+
+          <form class="card form" id="contactForm">
+            <div class="form__row">
+              <label>
+                <span>Name</span>
+                <input class="input" type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input class="input" type="email" name="email" placeholder="you@example.com" required />
+              </label>
+            </div>
+
+            <label>
+              <span>Message</span>
+              <textarea class="input" name="message" rows="5" placeholder="What do you want to build or discuss?" required></textarea>
+            </label>
+
+            <div class="form__actions">
+              <button class="btn" type="submit">Send</button>
+              <p class="muted small" id="formHint" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="muted small">© <span id="year"></span> Sriram Yadagiri. Built with HTML/CSS/JS.</p>
+      <a class="link small" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
